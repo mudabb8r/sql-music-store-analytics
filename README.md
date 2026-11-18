@@ -2,7 +2,9 @@
 
 Business analysis of a digital music store's sales database with **SQL** (joins, CTEs, window functions) and an **interactive dashboard** in Python/Plotly. The questions are the ones a sales or BI team would ask: where does revenue come from, how is it trending, which genres sell where, and which customers are most valuable or at risk of leaving.
 
-![Dashboard](images/dashboard.png)
+**[Open the live interactive dashboard](https://mudabb8r.github.io/sql-music-store-analytics/dashboard.html)**
+
+[![Dashboard](images/dashboard.png)](https://mudabb8r.github.io/sql-music-store-analytics/dashboard.html)
 
 ## Key findings
 
@@ -34,7 +36,7 @@ python run_queries.py      # runs every query, saves CSVs in outputs/
 python dashboard.py        # builds dashboard.html and images/dashboard.png
 ```
 
-Open `dashboard.html` in a browser for the interactive version (hover for values). To rebuild it in Power BI, follow [POWER_BI_GUIDE.md](POWER_BI_GUIDE.md).
+Open `dashboard.html` in a browser for the interactive version (hover for values), or view it [online](https://mudabb8r.github.io/sql-music-store-analytics/dashboard.html). To rebuild it in Power BI, follow [POWER_BI_GUIDE.md](POWER_BI_GUIDE.md).
 
 ## Data
 
